@@ -1,0 +1,7 @@
+vendor
+tags
+.phpunit.*
+composer.lock
+.ctags
+tests/_reports
+env.php

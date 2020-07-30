@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    testdox="true"
+    bootstrap="vendor/autoload.php"
+    colors="true"
+    verbose="true"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    stopOnError="false"
+    stopOnFailure="false"
+    stopOnIncomplete="false"
+    stopOnSkipped="false"
+    stopOnRisky="false"
+    beStrictAboutTestsThatDoNotTestAnything="true"
+    beStrictAboutTodoAnnotatedTests="true"
+    processIsolation ="false"
+    forceCoversAnnotation="true"
+    >
+
+    <!-- beStrictAboutTestsThatDoNotTestAnything="true" para marcar testes sem asserts como riscos -->
+    <!-- beStrictAboutTodoAnnotatedTests="false" para não marcar @todo como risco -->
+
+  <testsuite name="tests">
+      <directory>tests</directory>
+  </testsuite>
+  <filter>
+      <whitelist processUncoveredFilesFromWhitelist="true">
+          <directory suffix=".php">app</directory>
+      </whitelist>
+  </filter>
+</phpunit>
