@@ -16,7 +16,11 @@ class DevToU {
     }
 
     public function atualizaOuCriaPostsLocalmente() {
-        $csv = $this->parseCsvFile($this->csv, ';');
+        try {
+            $csv = $this->parseCsvFile($this->csv, ';');
+        } catch (\Exception $e) {
+            die("artigos.csv não encontrado");
+        }
         $api = $this->get(
             "https://dev.to/api/articles/me/all", 
             [ 
