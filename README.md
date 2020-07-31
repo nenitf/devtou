@@ -43,7 +43,7 @@ nome-arquivo-2;45247;Outro titulo do Devto
 8. Execute o código para criar/atualizar os arquivos especificados.
 
 ```sh
-php index.php
+php DevToU.php
 ```
 
 ## Testes
