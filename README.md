@@ -17,7 +17,7 @@ Script para fazer backup de posts do [dev.to](https://dev.to), pois os textos sÃ
 > Para atualizar o script basta utilizar o mesmo comando
 
 ```sh
-curl https://raw.githubusercontent.com/nenitf/devtou/master/app/DevToU.php -o DevToU.php
+curl https://raw.githubusercontent.com/nenitf/devtou/main/app/DevToU.php -o DevToU.php
 ```
 
 3. No [dev.to](https://dev.to) acesse `settings -> account -> DEV API Keys` e crie uma chave com o nome que for para ser usado no script.

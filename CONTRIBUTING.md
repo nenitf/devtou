@@ -26,7 +26,7 @@ Antes de enviar seu PR, considere seguir as guidelines:
 
 1. Faça suas mudanças em uma branch nova:
      ```sh
-     git checkout -b my-fix-branch master
+     git checkout -b my-fix-branch main
      ```
 
 1. Commit suas mudanças usando a [convenção de commits](https://gist.github.com/nenitf/1cf5182bff009974bf436f978eea1996#emojicom).
@@ -49,7 +49,7 @@ Antes de enviar seu PR, considere seguir as guidelines:
   * Faça-as.
   * Rebase sua branch e force push para seu fork (isso irá atualizar o PR):
     ```sh
-    git rebase master -i
+    git rebase main -i
     git push -f
     ```
 
