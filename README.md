@@ -24,15 +24,19 @@ curl https://raw.githubusercontent.com/nenitf/devtou/main/app/DevToU.php -o DevT
 
 4. Copie o hash da chave e salve em um novo arquivo `token`.
 
-> Caso tenha pretensão de salvar no github, **coloque o o arquivo no .gitignore!**
+> Caso tenha pretensão de salvar no github, **coloque o arquivo `token` no `.gitignore`!**
 
 5. Crie o arquivo `bot-artigos.csv`, cujo irá conter todos os artigos encontrados.
+
+> Caso apareça um erro sobre não existir `artigos.csv`, ignore.
+> Caso tenha pretensão de salvar no github, coloque o arquivo `bot-artigos.csv` no `.gitignore`
 
 ```sh
 php DevToU.php
 ```
 
 6. Renomeie o arquivo `bot-artigos.csv` para `artigos.csv`.
+
 7. Preencha a primeira coluna com o nome desejado dos arquivos sem `.md` ao final.
 
 ```csv
