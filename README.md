@@ -2,6 +2,8 @@
 
 > Desenvolvimento continua como [devtome](https://github.com/nenitf/devtome)
 
+<!--
+
 [![emojicom](https://img.shields.io/badge/emojicom-%F0%9F%90%9B%20%F0%9F%86%95%20%F0%9F%92%AF%20%F0%9F%91%AE%20%F0%9F%86%98%20%F0%9F%92%A4-%23fff)](https://gist.github.com/nenitf/1cf5182bff009974bf436f978eea1996#emojicom)
 
 Script para fazer backup de posts do [dev.to](https://dev.to), pois os textos são seus e isso o site **deve a você**.
@@ -62,3 +64,4 @@ composer test:cover
 ## Contribuindo
 
 Veja o [CONTRIBUTING.md](CONTRIBUTING.md)
+-->
